@@ -51,7 +51,7 @@ const Index = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Icon name="Heart" className="text-primary h-8 w-8" />
-              <span className="text-2xl font-bold text-primary font-montserrat">Доктор Лапкин</span>
+              <span className="text-2xl font-bold text-primary font-montserrat">Лапки в порядке</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-gray-600 hover:text-primary transition-colors">Услуги</a>
@@ -337,7 +337,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Heart" className="text-accent h-8 w-8" />
-                <span className="text-2xl font-bold font-montserrat">Доктор Лапкин</span>
+                <span className="text-2xl font-bold font-montserrat">Лапки в порядке</span>
               </div>
               <p className="text-gray-300 font-opensans">Современная ветеринарная клиника с заботой о каждом питомце</p>
             </div>
@@ -350,7 +350,7 @@ const Index = () => {
                 </p>
                 <p className="flex items-center">
                   <Icon name="Mail" className="h-4 w-4 mr-2" />
-                  info@doctor-lapkin.ru
+                  info@lapki-poryadok.ru
                 </p>
                 <p className="flex items-center">
                   <Icon name="MapPin" className="h-4 w-4 mr-2" />
@@ -383,7 +383,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400 font-opensans">
-            <p>&copy; 2024 Ветеринарная клиника "Доктор Лапкин". Все права защищены.</p>
+            <p>&copy; 2024 Ветеринарная клиника "Лапки в порядке". Все права защищены.</p>
           </div>
         </div>
       </footer>
