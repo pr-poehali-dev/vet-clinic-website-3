@@ -45,6 +45,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Учебный проект label */}
+      <div className="fixed top-4 left-4 z-50 bg-red-500 text-white px-3 py-1 rounded-md text-sm font-semibold shadow-lg">
+        УЧЕБНЫЙ ПРОЕКТ
+      </div>
+      
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
