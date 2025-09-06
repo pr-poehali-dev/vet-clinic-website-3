@@ -151,6 +151,50 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Акция */}
+      <section className="py-16 bg-gradient-to-r from-accent/10 via-accent/5 to-accent/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-accent rounded-2xl p-8 md:p-12 text-white relative overflow-hidden">
+            <div className="absolute top-0 right-0 transform translate-x-4 -translate-y-4">
+              <div className="w-32 h-32 bg-white/10 rounded-full"></div>
+            </div>
+            <div className="absolute bottom-0 left-0 transform -translate-x-8 translate-y-8">
+              <div className="w-24 h-24 bg-white/10 rounded-full"></div>
+            </div>
+            <div className="relative z-10 text-center max-w-4xl mx-auto">
+              <div className="inline-flex items-center bg-white/20 rounded-full px-4 py-2 mb-6">
+                <Icon name="Zap" className="h-4 w-4 mr-2" />
+                <span className="text-sm font-semibold">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 font-montserrat">
+                Первичный осмотр + вакцинация
+                <span className="block text-3xl md:text-4xl">всего за 2500 ₽</span>
+              </h2>
+              <p className="text-xl mb-8 opacity-90 font-opensans">
+                Комплексный пакет для новых клиентов: полный осмотр питомца + первая прививка. 
+                <br className="hidden md:block" />
+                Скидка действует до конца месяца!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button size="lg" className="bg-white text-accent hover:bg-gray-100 px-8 py-4 text-lg font-semibold">
+                  <Icon name="Calendar" className="h-5 w-5 mr-2" />
+                  Записаться по акции
+                </Button>
+                <div className="text-white/80 font-opensans">
+                  <div className="flex items-center justify-center space-x-2">
+                    <Icon name="Clock" className="h-4 w-4" />
+                    <span>Акция до 31 декабря</span>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-8 text-sm opacity-75 font-opensans">
+                *Акция не распространяется на экстренные вызовы
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Популярные услуги */}
       <section id="services" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
